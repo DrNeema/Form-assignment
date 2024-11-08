@@ -40,7 +40,6 @@
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" 
                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$" required>
-            <small>Password must contain at least 8 characters, including one uppercase letter, one lowercase letter, and one number.</small>
             <br><br>
         </fieldset>
 
@@ -87,7 +86,7 @@
 
             <!-- Bio Textarea -->
             <label for="bio">Bio:</label>
-            <input type="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself"><input>
+            <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself"></textarea>
             <br><br>
         </fieldset>
 
